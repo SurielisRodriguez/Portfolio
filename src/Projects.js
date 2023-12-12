@@ -1,4 +1,5 @@
 import ActivExcel from "./components/assets/Portfolio/ActivExcel.gif"
+import Travelogue from "./components/assets/Portfolio/Travelogue.gif"
 
 const Projects = [ 
 
@@ -12,9 +13,9 @@ const Projects = [
 {
     id: 2,
     name: "Travelogue",
-    image: ActivExcel,
+    image: Travelogue,
     link: '',
-    alt: "ActivExcel walkthrough"
+    alt: "Travelogue walkthrough"
 }
 
 

@@ -4,13 +4,12 @@ import AboutMe from "./components/pages/AboutMe";
 import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import ContactMe from "./components/pages/ContactMe";
-import Header from "./components/components/Header";
+import Header from "./components/components/NavBar";
 
 import "../src/styles/App.scss"
 import "../src/styles/AboutMe.scss"
 import "../src/styles/Home.scss"
 import "../src/styles/Media.scss"
-
 
 const App = () =>{
   
@@ -19,7 +18,6 @@ const App = () =>{
       <Header />
           <Routes>
             <Route path="/" element={<AboutMe />} />
-            <Route path="/about" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<ContactMe />} />

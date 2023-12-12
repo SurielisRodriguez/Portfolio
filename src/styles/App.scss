@@ -45,6 +45,7 @@ ul.nav{
       @media(max-width: 380px){
       color: white !important;
       font-size: 20px;
+      font-weight: bolder;
     }
   }
  
@@ -68,16 +69,17 @@ ul.nav{
   }
  
   .nav-link:hover{
-    color:#368ABF !important;
+    color:#7c14de !important;
     text-shadow: 2px 2px 12px white;
+    font-weight: 5px;
   }
   a.nav-link.active{
     color:#368ABF;
-    text-shadow: 2px 2px 12px white;
+    text-shadow: 1px 1px 5px white;
+    font-weight: 5px;
   }
   
   .background{
-    background-image: url("../components/assets/background.jpg");
       background-position: 40%;
       background-size: cover;
       object-fit: contain;

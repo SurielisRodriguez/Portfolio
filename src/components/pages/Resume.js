@@ -3,6 +3,7 @@ import ResumePDF from "../assets/ResumePDF.pdf"
 const Resume = () =>{
     return(
       <div 
+      id="resume"
       className="opaque-background"
       initial={{width: 0}}
       animate={{width: "100%"}}

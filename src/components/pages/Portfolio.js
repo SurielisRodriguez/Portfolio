@@ -13,7 +13,7 @@ const Portfolio = (props) => {
   return(
     <>
     <div 
-    className='opaque-background'
+    id='portfolio'
     initial={{width: 0}}
     animate={{width: "100%"}}
     exit={{x: window.innerWidth, transition:  {duration: .15}}}>
