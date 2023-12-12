@@ -1,0 +1,47 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+.project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 30vw;
+    font-family: 'Comfortaa', cursive;
+    margin: 0px 10px;
+    
+    @media(max-width:380px){
+      max-width: 75vw;
+      max-height: 25vh;
+      margin: 20px 10px;
+      padding-left: 18px;
+    }
+  }
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+    @media(max-width:380px){
+      flex-direction: column;
+    }
+  }
+  .video{
+    height: 20vh;
+    width: 20vw;
+    object-fit: cover;
+    overflow: hidden;
+    @media(max-width:380px){
+      width: 70vw;
+      height: 25vh;
+      object-fit: cover;
+    }
+
+    
+  }
+  .portfolio-statement{
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 400%;
+    padding-bottom: 4%;
+    font-family: 'Comfortaa', cursive;
+  }

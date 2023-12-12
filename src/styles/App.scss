@@ -1,0 +1,196 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+.hamburger{
+  @media screen and (max-width: 380px){
+    position: absolute !important;
+    right: 3% !important;
+    top: 2% !important;
+    z-index: 101;
+  }
+  
+  @media screen and (min-width: 381px) and (max-width: 989px ){
+    position: absolute !important;
+    right: 3% !important;
+    top: 2% !important;
+  }
+}
+.navigation{
+  background: #ffc1c1;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.paragraph{
+  font-size: 17px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+ul.nav{
+  display: flex;
+  justify-content: space-around;
+    @media(max-width: 990px){
+      position: absolute;
+    }
+}
+
+  .nav-link {
+    @media(min-width: 381px){
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none;
+    font-size: 25px !important;
+    text-shadow: 2px 2px 10px black;
+    }
+  }
+  a.nav-link {
+      @media(max-width: 380px){
+      color: white !important;
+      font-size: 20px;
+    }
+  }
+ 
+  ul{
+    list-style-type: none;
+  }
+  .fill-pills.nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+    margin-top: 0;
+  }
+
+  .footer{
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    bottom: 0%;
+    position: absolute;
+    left: 40%;
+  }
+ 
+  .nav-link:hover{
+    color:#368ABF !important;
+    text-shadow: 2px 2px 12px white;
+  }
+  a.nav-link.active{
+    color:#368ABF;
+    text-shadow: 2px 2px 12px white;
+  }
+  
+  .background{
+    background-image: url("../components/assets/background.jpg");
+      background-position: 40%;
+      background-size: cover;
+      object-fit: contain;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100vw;
+  }
+  .opaque-background{
+      background-repeat: no-repeat;
+      min-height: 175vh;
+      position: relative;
+  }
+
+  .page-content{
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 10px black;
+  padding-right: 3%;
+  padding-left: 10%;
+  font-family: 'Noto Serif JP', serif;
+  margin-bottom: 4%;
+  }
+  .contact-me{
+    display: flex;
+    flex-direction: column;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
+  }
+  .message-input{
+    width: 55vh;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
+  }
+  .name-input{
+    width: 55vh !important;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
+  }
+  .email-input{
+    width: 55vh !important;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
+  }
+  .contact-button{
+    width: 55vh;
+    @media(max-width: 380px){
+      max-width: 370px
+    }
+  }
+  
+  .content{
+    display:flex;
+    justify-content: center;
+    padding: 5%;
+    font-family: 'Noto Serif JP', serif;
+    @media(max-width: 380px){
+      max-width: 370px;
+      position: absolute;
+      top: 30%;
+    }
+  }
+  
+  div.card{
+    border-radius: 30px;
+  }
+  
+  .resume{
+    margin-top: 2%;
+    height: 100vh;
+    width: 90vh;
+  }
+  .resume-container{
+    display: flex;
+    justify-content: center;
+  }
+  .resume-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+  }
+  a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    font-family: 'Noto Serif JP', serif;
+    
+}
+.download-link:hover{
+  color: white;
+  cursor: pointer;
+  font-family: 'Noto Serif JP', serif;
+}
+a:hover{
+  color:white;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-item{
+padding-top: 1%;
+}
+
+.mobile-navigation{
+  display: none;
+}
+div.mb-3{
+  @media(max-width:380px){
+    margin: 13px 3px
+  }
+}

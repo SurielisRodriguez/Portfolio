@@ -1,0 +1,74 @@
+@import "bootstrap";
+
+   @media (max-width: 990px){
+    .navigation {
+      display: none;
+      height: 70px;
+    }
+    .mobile-navigation {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 75px;
+      background-color: #368ABF;
+    }
+      .navbar{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 75px;
+        z-index: 100;
+        background-color: #368ABF;
+        opacity: 0.75;
+    }
+    nav li{
+      border: 1px solid black;
+      width: 100%;
+      border-radius: 7px;
+    }
+    .text-container{
+      width: auto;
+      position: relative;
+      top: 200px;
+    }
+    
+    a.nav-link{
+      height: 40px;
+    }
+    main.resume-container{
+      display: none;
+    }
+    a.download-link{
+      top: 19rem;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-family: 'Comfortaa', cursive;
+    }
+   }
+   @media (max-height: 820px){
+    main.resume-content{
+      height: 770px;
+    }
+   }
+   @media( max-width: 480px){
+    div.text-container{
+      height:auto !important;
+      width:auto !important;
+    }
+    h3{
+      height: auto !important;
+      width: auto !important;
+    }
+    p.about-me{
+      height: auto !important;
+      width: auto !important;
+    }
+   }
+  
+  
